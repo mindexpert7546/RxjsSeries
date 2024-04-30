@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './includes/header/header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PromoiseComponent } from './promoise/promoise.component';
+import { ObservableComponent } from './observable/observable.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    PromoiseComponent
+    PromoiseComponent,
+    ObservableComponent
   ],
   imports: [
     BrowserModule,
